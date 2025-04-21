@@ -7,6 +7,11 @@
 
 body{
     background-color: black;
+    
+}
+
+.main_container{
+    overflow: hidden;
 }
 
 h1{
@@ -39,13 +44,16 @@ h1{
 }
 
 img{
-   margin: 3rem auto;
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
    border-radius: 55rem;
    border: 2px solid black;
 }
 
 p{
-    text-align: center;
     font-size: 1.3rem;
     color: rgb(144, 244, 251);
 }
@@ -56,6 +64,7 @@ p{
     justify-content: center;
     align-items: center;
     padding: 0rem 5rem;
+    gap: 6rem;
 }
 
 .para {

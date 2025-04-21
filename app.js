@@ -17,20 +17,20 @@ function toss(coin) {
 
 
   if (coin === "masjid" && randomNum === 0) {
-    para_1.innerHTML = "YOU WON";
-    para_2.innerHTML = "YOU LOSS";
+    para_1.innerHTML = "Masjid WON";
+    para_2.innerHTML = "Chand LOSS";
     
   }else if (coin === "chand" && randomNum === 1) {
-    para_1.innerHTML = "YOU LOSS";
-    para_2.innerHTML = "YOU WON";
+    para_1.innerHTML = "Masjid LOSS";
+    para_2.innerHTML = "Chand WON";
     
   }else if (randomNum != 0 ) {
-    para_1.innerHTML = "YOU LOSS";
-    para_2.innerHTML = "YOU WON";
+    para_1.innerHTML = "Masjid LOSS";
+    para_2.innerHTML = "Chand WON";
     
   }else if(randomNum != 1){
-    para_1.innerHTML = "YOU WON";
-    para_2.innerHTML = "YOU LOSS";
+    para_1.innerHTML = "Masjid WON";
+    para_2.innerHTML = "Chand LOSS";
 
   } else {
     para_1.innerHTML = "";
